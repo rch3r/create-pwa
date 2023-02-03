@@ -1,0 +1,19 @@
+{
+  "name": "create-pwa",
+  "bin": {
+    "create-pwa": "./create-pwa.mjs"
+  },
+  "scripts": {
+    "format": "prettier -w ."
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "prettier": "^2.8.3"
+  }
+}
